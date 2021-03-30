@@ -22,7 +22,6 @@ import secrets
 kelimeler  = ["karınca", "babun", "porsuk", "yarasa", "ayı", "kunduz", "deve", "kedi", "aslan", "kobra", "puma", "çakal" ,"karga",  "geyik", "köpek"]
 
 my_string = random.choice(kelimeler)
-print(my_string)
 sayi=len(my_string)
 giris_hakki =sayi+1
 
