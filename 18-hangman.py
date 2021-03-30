@@ -1,4 +1,6 @@
 import random
+import secrets
+
 print(""" 
   /\  /\__ _ _ __   __ _ _ __ ___   __ _ _ __  
  / /_/ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
@@ -16,8 +18,7 @@ print("\n"
       " / \  |\n"
       "      |\n"
      "=========''']\n")
-import random
-import secrets
+
 
 kelimeler  = ["karınca", "babun", "porsuk", "yarasa", "ayı", "kunduz", "deve", "kedi", "aslan", "kobra", "puma", "çakal" ,"karga",  "geyik", "köpek"]
 
