@@ -49,6 +49,3 @@ while giris_hakki >0:
         if giris_hakki==0:
             print("öldün")
             print(f"gizli kelime {my_string}dir")
-
-
-
