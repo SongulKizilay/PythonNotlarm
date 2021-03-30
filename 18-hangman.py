@@ -1,3 +1,4 @@
+import random
 print(""" 
   /\  /\__ _ _ __   __ _ _ __ ___   __ _ _ __  
  / /_/ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
@@ -15,13 +16,18 @@ print("\n"
       " / \  |\n"
       "      |\n"
      "=========''']\n")
-my_string = "leon"
+import random
+import secrets
+
+kelimeler  = ["karınca", "babun", "porsuk", "yarasa", "ayı", "kunduz", "deve", "kedi", "aslan", "kobra", "puma", "çakal" ,"karga",  "geyik", "köpek"]
+
+my_string = random.choice(kelimeler)
+print(my_string)
 sayi=len(my_string)
 giris_hakki =sayi+1
 
 while giris_hakki >0:
     new_list = []
-    my_string = "leon"
     for element in my_string:
         new_list.append(element)
     harfgiris = input("bir harf giriniz")
@@ -32,6 +38,8 @@ while giris_hakki >0:
         new_list.remove(harfgiris)
     elif harfgiris == my_string:
         print("kazandınız ")
+        print(f"gizli kelime {my_string}dir")
+
         break
     else:
         giris_hakki -= 1
@@ -40,3 +48,7 @@ while giris_hakki >0:
         print("false")
         if giris_hakki==0:
             print("öldün")
+            print(f"gizli kelime {my_string}dir")
+
+
+
