@@ -8,8 +8,10 @@ def calc(x,y,ops):
     elif ops == "*":
         return (str(x) + "" + ops + str(y) + "=" + str(x * y))
     elif ops == "/":
-        return (str(x) + "" + ops + str(y) + "=" + str(x / y))
-x=int(input("please enter first number"))
-y=int(input("please enter second number"))
-ops=input("choose between +,-,*,/")
-print(calc(x,y,ops))
+
+     return (str(x) + "" + ops + str(y) + "=" + str(x / y))
+while True:
+    x=int(input("please enter first number"))
+    y=int(input("please enter second number"))
+    ops=input("choose between +,-,*,/")
+    print(calc(x,y,ops))
